@@ -17,12 +17,11 @@
 `kernel.core_uses_pid = 1`
 
 #### Disable netfilter on bridges.
-`#net.bridge.bridge-nf-call-ip6tables = 0
+```
+#net.bridge.bridge-nf-call-ip6tables = 0
 #net.bridge.bridge-nf-call-iptables = 0
 #net.bridge.bridge-nf-call-arptables = 0
-`
-#### cf. http://www.psc.edu/networking/projects/tcptune/#Linux
-`bash
+
 net.ipv4.ip_forward = 1
 
 net.ipv4.neigh.default.gc_thresh1 = 4096
@@ -64,4 +63,4 @@ net.ipv4.tcp_syncookies = 0
 net.ipv4.tcp_timestamps = 0
 net.ipv4.tcp_tw_recycle = 1
 net.ipv4.tcp_wmem = 4096 16384 16777216
-`
+```
