@@ -1,16 +1,16 @@
-# Kernel sysctl configuration file for Red Hat Linux
-#
-# For binary values, 0 is disabled, 1 is enabled.  See sysctl(8) and
-# sysctl.conf(5) for more details.
+## Kernel sysctl configuration file for Red Hat Linux
 
-# Controls source route verification
-net.ipv4.conf.default.rp_filter = 1
+### For binary values, 0 is disabled, 1 is enabled.  See sysctl(8) and
+### sysctl.conf(5) for more details.
 
-# Do not accept source routing
-net.ipv4.conf.default.accept_source_route = 0
+### Controls source route verification
+`net.ipv4.conf.default.rp_filter = 1`
 
-# Controls the System Request debugging functionality of the kernel
-kernel.sysrq = 0
+### Do not accept source routing
+`net.ipv4.conf.default.accept_source_route = 0`
+
+### Controls the System Request debugging functionality of the kernel
+`kernel.sysrq = 0`
 
 # Controls whether core dumps will append the PID to the core filename.
 # Useful for debugging multi-threaded applications.
