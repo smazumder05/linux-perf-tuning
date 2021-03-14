@@ -1,5 +1,7 @@
 # Linux Performance Tuning
 
+![](img/linux_observability_tools.png)
+
 # TOC
 
 * [Introduction](#introduction)
