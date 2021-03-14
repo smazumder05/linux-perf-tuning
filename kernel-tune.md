@@ -22,7 +22,7 @@
 #net.bridge.bridge-nf-call-arptables = 0
 `
 #### cf. http://www.psc.edu/networking/projects/tcptune/#Linux
-`
+`bash
 net.ipv4.ip_forward = 1
 
 net.ipv4.neigh.default.gc_thresh1 = 4096
